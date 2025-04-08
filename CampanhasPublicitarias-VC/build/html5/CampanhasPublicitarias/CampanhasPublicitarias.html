@@ -1,0 +1,22 @@
+<sk-application ng-controller="CampanhasPublicitariasController as ctrl">
+
+    <sk-dynaform sk-entity-name="CampanhasPublicitarias" 
+        sk-dynaform-interceptor="ctrl"
+        sk-skip-start-page="false"
+        sk-default-mode="master"
+        sk-on-dynaform-loaded="ctrl.onDynaformLoaded(dynaform, dataset)">
+     
+		 <dynaform-financeiro-campanha>
+	        <sk-right-top-bar>
+	        	<button brand ng-click="ctrl.inserirAssinatura()">Inserir Assinatura</button>	     
+				<button info ng-click="ctrl.aplicarMulta()">Aplicar Multa de Atraso</button>	
+				<button warning ng-click="ctrl.duplicarAssinatura()">Duplicar Assinatura</button>
+			<!-- Melhorias Futuras	<button primary ng-click="ctrl.gerarFinanceiro()">Gerar Título Financeiro</button>	--> 
+	        </sk-right-top-bar>
+        </dynaform-financeiro-campanha> 
+
+    
+    </sk-dynaform>
+    
+</sk-application> 
+

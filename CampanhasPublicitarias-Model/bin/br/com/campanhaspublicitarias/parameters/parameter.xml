@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE parameters>
+<parameters group-name="arb.campanhaspublicitarias"
+	data-source="br.com.sankhya.modelcore.util.MGECoreParameter">
+   
+	 <parameter 
+		name="br.com.campanhaspublicitarias.param.campercmulta"
+		key="CAMPERCMULTA" 
+		type="number" 
+		cacheable="false" 
+		required="false"
+		default="8.00"
+		description="[Campanhas Publicitárias] Percentual de multa por atraso no pagamento"
+		module="E" />
+
+
+</parameters>

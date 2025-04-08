@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="ISO-8859-1" standalone="yes"?>
+<HttpServiceBroker
+	authenticator="br.com.sankhya.dwf.services.DefaultAuthenticator" >
+	
+	<providers>
+		<provider domain="CampanhasSP"
+			class = "br.com.campanhaspublicitarias.services.CampanhasPublicitariasSPBean"
+			type = "ejb-stateless"
+			jndi = "br/com/campanhaspublicitarias/services/CampanhasSP"
+			autentication = "true" />			
+			
+	</providers> 
+
+
+</HttpServiceBroker>
